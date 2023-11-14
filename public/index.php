@@ -26,7 +26,7 @@ $listFood = $model->returnListFood($alimentos);
         <select class="" aria-label="Default select example" name="food" id="food">
             <option value="">Escolha um Alimento</option>
             <?php foreach ($listFood as $food) { ?>
-                <option value="<?= $food?>"><?= $food?></option>
+                <option value="<?= $food ?>"><?= $food ?></option>
             <?php } ?>
         </select>
     </div>
